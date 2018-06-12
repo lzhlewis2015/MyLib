@@ -1,6 +1,6 @@
 use_frameworks!
 target 'MyLib_Tests' do
-  pod 'MyLib', :path => '../'
-  
+    #pod 'MyLib', :path => '../'
+  pod 'MyLib', :podspec => '../MyLib.podspec'  # 指定podspec文件
   
 end
