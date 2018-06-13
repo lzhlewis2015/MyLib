@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let a = CXColor.white()
-        
         // Do any additional setup after loading the view.
     }
 

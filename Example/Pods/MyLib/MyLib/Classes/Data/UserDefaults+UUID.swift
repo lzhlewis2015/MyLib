@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension UserDefaults {
+extension UserDefaults {
     // MARK: UUID
     private static var uuidKey: String {
         return "UUID"
