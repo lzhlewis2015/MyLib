@@ -1,5 +1,5 @@
 PODS:
-  - MyLib (0.1.0)
+  - MyLib (0.2.0)
 
 DEPENDENCIES:
   - MyLib (from `../MyLib.podspec`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :podspec: "../MyLib.podspec"
 
 SPEC CHECKSUMS:
-  MyLib: 133ee00882f303637006c33196663e4681d4a15c
+  MyLib: e6babc3f6c960252d8a817f279fa21595dc90dcf
 
-PODFILE CHECKSUM: 874dab10968eaa854719662a8f0a2daec0dd6893
+PODFILE CHECKSUM: 144c0428a878bd364212bc9c3ee96fde77328f19
 
 COCOAPODS: 1.5.0

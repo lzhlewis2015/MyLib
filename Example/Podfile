@@ -1,6 +1,9 @@
 use_frameworks!
+
+#source 'https://github.com/lzhlewis2015/MySpecs.git'
 target 'MyLib_Tests' do
     #pod 'MyLib', :path => '../'
-  pod 'MyLib', :podspec => '../MyLib.podspec'  # 指定podspec文件
-  
+    # 这个一定要发布了之后才行
+    pod 'MyLib', :podspec => '../MyLib.podspec'  # 指定podspec文件 这个需要在MySpecs 加上了该MyLib 才能这样指定
+    # pod 'MyLib', '~> 0.2.0'
 end

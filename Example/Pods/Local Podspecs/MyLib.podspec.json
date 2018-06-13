@@ -1,7 +1,7 @@
 {
   "name": "MyLib",
-  "version": "0.1.0",
-  "summary": "A short description of MyLib.",
+  "version": "0.2.0",
+  "summary": "just for my first lib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lzhlewis2015/MyLib",
   "license": {
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/lzhlewis2015/MyLib.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MyLib/Classes/**/*"
+  "source_files": "MyLib/Classes/*.{h,m,swift}",
+  "frameworks": "UIKit",
+  "swift_version": "3.2"
 }
