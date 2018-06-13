@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLib'
-  s.version          = '0.3.0'
+  s.version          = '0.4.1'
   s.summary          = 'just for my first lib'
 
 # This description is used to generate tags and improve search results.
